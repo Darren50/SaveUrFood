@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sp.saveurfood1">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SaveUrFood1">
+        <activity android:name=".Firebase.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Firebase.Login1"/>
+        <activity android:name=".Firebase.ForgotPassword" />
+        <activity android:name=".Firebase.ProfileActivity" />
+        <activity android:name=".Firebase.RegisterUser" />
+        <activity android:name=".Storage.DashBoard"/>
+        <activity android:name=".ShoppingList.InfoDisplayForList"/>
+        <activity android:name=".ShoppingList.DataInputForList"/>
+        <activity android:name=".Settings.InterestingNews"/>
+        <activity android:name=".Storage.DataInput"/>
+        <activity android:name=".Storage.introguide"/>
+        <activity android:name=".Storage.InfoDisplay"/>
+        <activity android:name=".ShoppingList.CaptureAct" />
+        <activity android:name=".ShoppingList.ScanForList" />
+        <activity android:name=".ShoppingList.ScanForRemoveList" />
+        <activity android:name=".ShoppingList.CompareBCtoDB" />
+        <activity android:name=".Settings.moreinfo"/>
+        <activity android:name=".Community.FreefoodforallWV"/>
+        <activity android:name=".Community.Foodbanks"/>
+        <activity android:name=".Community.Willinghearts"/>
+        <activity android:name=".Community.Societyforaged"/>
+        <activity android:name=".Community.RonaldMacdonald"/>
+        <activity android:name=".Community.Foodforall"/>
+        <activity android:name=".Community.Foodbanksingapore"/>
+        <activity android:name=".ShoppingList.guide2"/>
+        <activity android:name=".Storage.guide1"/>
+        <activity android:name=".Storage.ImageToText"/>
+    </application>
+
+</manifest>

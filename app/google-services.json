@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434962793214",
+    "project_id": "auth-5f076",
+    "storage_bucket": "auth-5f076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434962793214:android:77f9a969f825c6998bdbaf",
+        "android_client_info": {
+          "package_name": "com.sp.saveurfood1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434962793214-nah9sabdeqvht9ni2ed9hgaqg3bsks0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi0JijXZc5fZd9Pab-8cN63QyV8moyaIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434962793214-nah9sabdeqvht9ni2ed9hgaqg3bsks0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

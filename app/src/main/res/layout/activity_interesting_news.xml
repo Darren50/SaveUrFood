@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/foodbackground6"
+    android:layout_height="match_parent"
+    tools:context=".Settings.InterestingNews">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="50dp"
+                android:id="@+id/newscard1"
+                app:cardElevation="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/foodnews1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="When over 7 tonnes of chicken is discarded daily-CNA"
+                        android:textAlignment="center"
+                        android:textColor="#1E1E1E"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Cities in Asia are losing all kinds of food. And most of this wastage happens even before consumers can make their purchases. In a three-part series, CNA Insider hits the food..."
+                        android:textAlignment="center"
+                        android:textColor="#1E1E1E"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="50dp"
+                android:id="@+id/newscard2"
+                app:cardElevation="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/foodnews2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Want to learn how to combat food waste at home?"
+                        android:textAlignment="center"
+                        android:textColor="#1E1E1E"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="According to USDA research, the average family of four wastes nearly $1,500 worth of food each year. And the food that goes in the trash winds up in a landfill where it creates.."
+                        android:textAlignment="center"
+                        android:textColor="#1E1E1E"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
